@@ -1,0 +1,13 @@
+[package]
+name = "native"
+version = "0.1.0"
+authors = ["Rahul Garg <rg@vihu.dev>"]
+edition = "2018"
+
+[lib]
+name = "native"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = { git = "https://github.com/rusterlium/rustler.git", branch = "master" }
+vectorclock-rs = "0.0.1"
