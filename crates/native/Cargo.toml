@@ -10,4 +10,4 @@ crate-type = ["dylib"]
 
 [dependencies]
 rustler = { git = "https://github.com/rusterlium/rustler.git", branch = "master" }
-vectorclock-rs = "0.0.1"
+vectorclock-rs = { git = "https://github.com/vihu/vectorclock-rs.git", branch = "master" }

@@ -16,6 +16,11 @@ rustler::init!(
     [
         // PedersenGens API
         vc::new,
+        vc::incremented,
+        vc::is_equal,
+        vc::temporal_relation,
+        vc::merge_with,
+        vc::to_vec,
     ],
     load = load
 );
